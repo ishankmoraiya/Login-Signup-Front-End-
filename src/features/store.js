@@ -9,5 +9,5 @@ export default configureStore({
 });
 
 export const axiosServer = axios.create({
-  baseURL: "http://localhost:4000",
+  baseURL: "https://login-signup-back-end.onrender.com",
 });
