@@ -1,0 +1,49 @@
+header {
+  padding: 0.5rem 1rem;
+  color: #f9f9f9;
+  background: rgb(50, 50, 50);
+}
+
+header > .btn {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+header > .btn > button {
+  letter-spacing: 2px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+header > .btn > .logout,
+.register {
+  background: #1abc9c;
+  border: 2px solid rgb(247, 247, 247);
+  padding: 0.4rem 0.9rem;
+  border-radius: 5px;
+  color: rgb(243, 237, 237);
+}
+
+header > .btn > .logout:hover,
+.register:hover {
+  border: 2px solid rgb(80, 79, 61);
+  background: none;
+  color: #f9f9f9;
+}
+
+header > .btn > .login1 {
+  background: #16a085;
+  border: 2px solid rgb(255, 255, 255);
+  padding: 0.4rem 0.9rem;
+  border-radius: 5px;
+  color: #f9f9f9;
+}
+
+header > .btn > .login1:hover,
+.login1:hover {
+  border: 2px solid rgb(80, 79, 61);
+  background: none;
+  color: #f9f9f9;
+}

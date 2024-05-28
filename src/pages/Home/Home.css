@@ -1,0 +1,29 @@
+.table-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table-container .table {
+    margin-bottom: 0;
+  }
+  
+  .table-container .btn-primary {
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  .table-container .btn-primary:hover {
+    background-color: #16a085;
+    border-color: #16a085;
+  }
+  
+  .table-container .pagination {
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  
